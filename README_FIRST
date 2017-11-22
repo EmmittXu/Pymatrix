@@ -1,0 +1,12 @@
+To include the distances, please add True after --distance like this:
+pymatrix closest --distance True -f data/sample.csv 2
+
+If you don't want distances, enter:
+pymatrix closest -f data/sample.csv 2
+
+
+In closest_to, I'm not sure if the output should always be single or not. For convinence, my output will always be single even when in some cases multiple row vectors are identically closest to row_i.
+
+From the instruction and type=click.STRING in the code, I assume that for json input, user will always enter the actual json string rather than the path-to-file. I hope this assumption is correct. 
+
+Validation_Guowei_Xu.ipynb is a jupyter notebook file where I ran a few validations.
