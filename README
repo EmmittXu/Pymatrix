@@ -9,4 +9,4 @@ In closest_to, I'm not sure if the output should always be single or not. For co
 
 From the instruction and type=click.STRING in the code, I assume that for json input, user will always enter the actual json string rather than the path-to-file. I hope this assumption is correct. 
 
-Validation_Guowei_Xu.ipynb is a jupyter notebook file where I ran a few validations.
+
